@@ -32,10 +32,12 @@ unstuck:
   - If you have experience writing or deriving mathematical equations, this is a
     similar process: list which variables and mathematical operations are
     available and then the additional information that can be derived from that.
+    ***
   - If you have experience creating artwork, this is similar to the process of
     understanding what tools you have available to you and how you can use them,
     e.g. what colors are in my palette and how can I mix them? Or I have a
     string, tape, and a pencil, and I need to draw a circle - how do I do that?
+    ***
   - Example: For a problem where an Array of distinct values must be returned,
     some of the information available includes: the Array itself, each element
     in the Array, its length, and the index of each item. You can find a list of

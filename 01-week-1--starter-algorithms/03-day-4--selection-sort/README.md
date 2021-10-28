@@ -21,7 +21,7 @@ loop 1000 times:
   execute the method using a larger input, e.g. 100 items if input is an Array
 
 average runtime = (current time - start time) / 2000
-```
+``` 
 
 We have provided you with the long input to use for benchmarking.
 

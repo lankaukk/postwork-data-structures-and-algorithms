@@ -10,7 +10,7 @@ function recursiveCount(num = 0) {
   // recursiveCount(++num);
 
   // THIS WILL CAUSE A STACK OVERFLOW. WHY?
-  // recursiveCount(num++);
+  // recursiveCount(num++); 
 
   // IF YOU LOG NUM BELOW, THE NUMBERS PRINT BACKWARDS FROM 9 TO 0. WHY?
   // console.log(num);

@@ -32,7 +32,7 @@ function iterativeSearch(arr, target) {
 
   return false;
 }
-```
+```  
 
 There are many ways to solve this problem. We suggest starting with the bases cases. What are they?
 

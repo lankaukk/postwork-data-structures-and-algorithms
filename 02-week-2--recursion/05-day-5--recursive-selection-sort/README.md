@@ -13,7 +13,7 @@ You may wish to convert your iterative solution to a recursive one. We've includ
 
 ```ruby
 def selection_sort(arr)
-  sorted = []
+  sorted = []  
 
   until arr.length == 0
     min = arr.min

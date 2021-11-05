@@ -1,11 +1,31 @@
 function selectionSortRecursive(arr) {
-  // type your code here
+  if (arr.length === 0) {
+    return [];
+  }
+
+  const min = Math.min(...arr);
+  const idx = arr.indexOf(min);
+  arr.splice(idx, 1);
+
+  const result = selectionSortRecursive(arr);
+  result.unshift(min);
+  return result;
 }
 
 if (require.main === module) {
   // add your own tests in here
   console.log("Expecting: [-1, 2, 3, 5]");
   console.log("=>", selectionSortRecursive([3, -1, 5, 2]));
+
+  console.log("");
+
+  console.log("Expecting: []");
+  console.log("=>", selectionSortRecursive([]));
+
+  console.log("");
+
+  console.log("Expecting: [-3, 1, 2, 99]");
+  console.log("=>", selectionSortRecursive([99, 1, -3, 2]));
 
   console.log("");
 }

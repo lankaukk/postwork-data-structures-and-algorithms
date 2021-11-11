@@ -1,5 +1,4 @@
 function fibonacci(num) {
-  // type your code here
   if (num < 2) {
     return num;
   }

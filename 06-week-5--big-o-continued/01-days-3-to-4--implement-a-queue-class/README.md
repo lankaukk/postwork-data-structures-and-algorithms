@@ -52,7 +52,7 @@ queue.search(6) => -1
 
 ### `print`
 
-`print` prints the contents of the queue. It does not return them! You may print them however you wish.
+`print` prints the contents of the queue. It does not return them! You may print them however you wish. 
 
 We've provided starter code for some languages. Choose whichever language you like. Once again, we recommend writing your own tests first and then running the test suites.
 

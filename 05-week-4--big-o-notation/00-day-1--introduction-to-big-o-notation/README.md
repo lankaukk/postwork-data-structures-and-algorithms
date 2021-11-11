@@ -26,7 +26,7 @@ Let's say we have an unsorted array of elements and our function needs to find a
 function findElement(arr, target):
   iterate over arr:
     if element == target:
-      return true
+      return true 
 
   return false
 ```

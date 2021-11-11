@@ -31,7 +31,7 @@ function findShortestString(arr) {
     string.length < shortest.length ? string : shortest
   );
 }
-```
+``` 
 
 Use the language of your choosing. We've included starter files for some languages where you can pseudocode, explain your solution and code.
 

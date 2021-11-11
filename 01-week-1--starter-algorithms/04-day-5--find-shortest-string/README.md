@@ -12,7 +12,7 @@ Output: 'hi'
 Input: ['flower', 'juniper', 'lily', 'dandelion']
 Output: 'lily'
 ```
-
+ 
 **Benchmarking**
 
 For this task, we are also asking you to calculate the average runtime of your solution. In other words, you run it a bunch of times and then divide the total time it took for the solution to run by the number of times it ran.
